@@ -1,3 +1,17 @@
+# Ignore a single file
+data/MachineLearningRating_v3.txt
+
+# Ignore all `.log` files
+*.log
+
+# Ignore entire folder
+__pycache__/
+venv/
+node_modules/
+
+# Ignore all .txt files in `data` folder
+data/*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
